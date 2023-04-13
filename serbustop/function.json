@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "name": "messages",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "topic",
+      "cardinality": "many",
+      "dataType": "string",
+      "subscriptionName": "subscription",
+      "connection": "serbus56hub_SERVICEBUS"
+    }
+  ]
+}
